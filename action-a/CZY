@@ -1,0 +1,10 @@
+FROM debia9.=slim
+
+ADD entrypoint.sh/ emtrypoint.sh
+RUN chmod +x /entrypoint.sh
+ENTRYPOINT ["entrypoint.sh"]
+
+
+
+git push --all
+
